@@ -15,6 +15,6 @@
 # Note
 
 * This build is Windows Only!!!.
-* if you want to add other sites just use the ```python run_hax("path/to/site")```
+* if you want to add other sites just use the ```run_hax("path/to/site")```
 
 ---
