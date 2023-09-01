@@ -9,3 +9,12 @@
 * Unzip it.
 * Run the boot.bat file
 * and Enjoy :).
+
+---
+
+# Note
+
+* This build is Windows Only!!!.
+* if you want to add other sites just use the ```python run_hax("path/to/site")```
+
+---
