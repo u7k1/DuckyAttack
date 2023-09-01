@@ -2,7 +2,7 @@
 <p align="center"><b><small>a Simple Phishing tool over 7 Sites :).</small></b></p>
 
 ---
-#Installation
+##Installation
 
 * Download The Source code.
 * Unzip it.
