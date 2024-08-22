@@ -1,8 +1,6 @@
 ![Img](https://raw.githubusercontent.com/u7k1/DuckyAttack/main/img.png?token=GHSAT0AAAAAACHAM7ZRTKPM27GQHJVV32KGZHRH2YA)
 <p align="center"><b><small>a Simple Phishing tool over 7 Sites :).</small></b></p>
 
----
-
 # Installation
 
 * Download The Source code.
@@ -10,9 +8,7 @@
 * Run the boot.bat file
 * and Enjoy :).
 
----
-
-# Note
+# Notes
 
 * This build is Windows Only!!!.
 * if you want to add other sites just use the ```run_hax("path/to/site")```
